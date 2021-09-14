@@ -1,0 +1,87 @@
+#baslik{
+    border:2px solid #008c8d;
+    background-color: #008c8d;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    right: 200px;
+    width:1200px;
+    height: 150px;
+}
+#baslik h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    color:white;
+}
+#menü{
+    border:2px solid #02b2b2;
+    background-color: #02b2b2;
+    position: absolute;
+    top:170px;
+    left: 100px;
+    right: 200px;
+    width:1200px;
+    height: 40px;
+
+}
+#menü h4{
+   
+    
+    text-align: center;
+    padding-bottom: 100px;
+    color:white;
+
+}
+#kategori{
+    border:2px solid #02b2b2;
+    background-color: #02b2b2;
+    position: absolute;
+    top:220px;
+    left: 100px;
+    width:300px;
+    height:350px;
+
+}
+#kategori h3{
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    color:white;
+}
+#icerik{
+    border:2px solid #008c8d;
+    background-color: #008c8d;
+    position: absolute;
+    top:220px;
+    right: 60px;
+    width:890px;
+    height:350px;
+
+}
+#icerik h3{
+   
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    color:white;
+
+}
+#alt{
+    border:2px solid #008c8d;
+    background-color: #008c8d;
+    position: absolute;
+    top:590px;
+    left: 100px;
+    right: 200px;
+    width:1205px;
+    height: 40px;
+
+}
+#alt h4{
+   
+   
+    text-align: center;
+    color:white;
+
+}

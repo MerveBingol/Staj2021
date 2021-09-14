@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Örnek3</title>
+        <style>
+            form{
+                border: 2px solid green;
+                width: 200px;
+                height: 200px;
+                padding:10px;
+            }
+            #submit{
+                background-color: indianred;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="cinsiyet">Cinsiyetinizi seçiniz:</label><br>
+            <input type="radio" id="cinsiyet" name="cinsiyet" value="Kadin">
+            <label for="kadin">Kadın</label><br>
+            <input type="radio" id="cinsiyet1" name="cinsiyet" value="Erkek">
+            <label for="Erkek">Erkek</label><br>
+
+            <label for="sehirler">Yaşadığınız Şehir:</label><br>
+            <input list="sehirler"   name="sehirler">
+            <datalist id="sehirler">
+            <option value="Erzurum">
+            <option value="Tokat">
+            <option value="Ankara">
+            <option value="İstanbul">
+            </datalist>
+             <br><br>
+            <input type="submit" id="submit">
+        </form>
+    </body>
+</html>

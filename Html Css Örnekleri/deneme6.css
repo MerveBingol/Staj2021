@@ -1,0 +1,23 @@
+.cizgi{
+    border:2px solid black;
+    background-color: blueviolet;
+    color:burlywood;
+    width: 100%;
+    height: 50%;
+    margin-top: 50px;
+}
+#cizgi1{
+    background-color: blueviolet;
+    color:burlywood;  
+}
+#cizgi2{
+    background-color: cadetblue;
+    color: coral;
+}
+#cizgi3{
+    background-color: darkgoldenrod;
+    color:darkgreen;
+}
+p{
+    text-align: center;
+}

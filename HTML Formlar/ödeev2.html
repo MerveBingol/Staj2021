@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ödev2</title>
+        <style>
+            form{
+                border: 2px solid#ecf7f6;
+                
+                position: absolute;
+                left: 300px;
+                width: 700px;
+                height: 580px;
+            }
+            #kenar{
+                border: 2px solid #fbfdfc;
+                background-color: #819fa1;
+                position: absolute;
+                left: 0px;
+                top: -2px;
+                width: 30px;
+                height:580px;
+            }
+            #baslik{
+                position: relative;
+                left:55px;
+            }
+            #sol{
+                background-color: #e5f4f3;
+                position: relative;
+                left: 34px;
+                top:10px;
+                line-height: 40px;
+               width: 660px;
+            }
+            #sol label{
+                position: relative;
+                left: 30px;
+            }
+            #sag{
+                
+                position: relative;
+                left: 280px;
+                top: -450px;
+                line-height: 38px;
+               
+            }
+            #ders{
+                line-height:20px;
+                width: 152px;
+                height: 100px;
+            }
+            #secenekler{
+                line-height: 15px;
+            }
+            #foto{
+                position: absolute;
+                left: 365px;
+                top:11px;
+                width: 20px;
+                height: 18px;
+            }
+            #foto1{
+                position: absolute;
+                left: 365px;
+                top:48px;
+                width: 20px;
+                height: 18px;
+            }
+            #foto2{
+                position: absolute;
+                left: 365px;
+                top:86px;
+                width: 20px;
+                height: 18px;
+            }
+         
+            #foto6{
+                position: absolute;
+                left: 365px;
+                top:356px;
+                width: 20px;
+                height: 18px;
+            }
+         
+           
+           
+           
+         
+      
+        </style>
+    </head>
+    <body>
+        <form>
+        <div id="baslik">
+            <h1>SEÇMELİ DERS FORMU (Tek Ders)</h1>
+        </div>
+
+        <div id="kenar">
+            
+        </div>
+
+        <div id="sol">
+            <label for="ad">ADINIZ</label><br>
+            <label for="soyad">SOYADINIZ</label><br>
+            <label for="numaranız">NUMARANIZ</label><br>
+            <label for="sınıfınız">SINIFINIZ</label><br>
+            <label for="subeniz">ŞUBENİZ</label><br>
+            <div id="ders"> <label for="dersler">DERSLER <br>
+            <b>(BİR TANE DERS SEÇİLECEK)</b></label><br></div>
+            <label for="adres">ADRES</label><br>
+            <label for="veli">VELİ ADI SOYADI</label><br>
+            <label for="tarih">TARİH</label><br>
+            <label for="imza">İMZA</label>
+        </div>
+
+        
+        <div id="sag" >
+            <input type="text" id="ad" name="ad" size="50"class="required"required >
+            <br>
+            <img id="foto" src="yıldız.PNG">
+            <input type="text" id="soyad" name="soyad"size="50" required><br>
+            <img id="foto1" src="yıldız.PNG">
+            <input type="text" id="no" name="no"size="50" required><br>
+            <img id="foto2" src="yıldız.PNG">
+            <select id="sinif" name="sinif" 
+            style="min-width:388px; background-image: url(yıldız.PNG );
+            background-repeat: no-repeat; background-position-x:350px;" required>
+                <br>
+                <option value="1.Sınıf">1.Sınıf</option>
+                <option value="2.Sınıf">2.Sınıf</option>
+                <option value="3.Sınıf">3.Sınıf</option>
+                <option value="4.Sınıf">4.Sınıf</option>   
+            </select><br>
+
+            <select id="sube" name="sube" style="min-width:388px;
+            background-image: url(yıldız.PNG );background-repeat:no-repeat;
+             background-position-x:350px;"  required><br>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select><br>
+
+            <div id="secenekler">
+            <input type="radio" id="dersler" name="dersler" value="matematik">
+            <label for="matematik">MATEMATİK</label><br>
+            <input type="radio" id="dersler1" name="dersler" value="fizik">
+            <label for="fizik">FİZİK</label><br>
+            <input type="radio" id="dersler2" name="dersler" value="bilgiVeIletisimtTeknolojisi"> 
+            <label for="ilgiVeIletisimtTeknolojisi">BİLGİ VE İLETİŞİM TEKNOLOJİSİ</label><br>
+            <input type="radio" id="dersler3" name="dersler" value="bedenEgitimi"> 
+            <label for="bedenEgitimi">BEDEN EĞİTİMİ</label><br>
+            <input type="radio" id="dersler3" name="dersler" value="felsefe"> 
+            <label for="felsefe">FELSEFE</label> <br><br>
+            </div>
+        
+            <input type="text" id="adres" name="adres" 
+            style="min-height:45px;" size="50"  required><br>
+            <input type="text" id="veli" name="veli" size="50">
+            <img id="foto6" src="yıldız.PNG">
+            <br>
+            <input type="date" id="tarih" name="tarih" 
+            style="min-width:388px;" size="50">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,246 @@
+#sayfa{
+    height:1365px;
+    background-color: #dadad7;
+}
+.logo{
+    margin-top:35px;
+}
+.nav-link{
+    color:black;
+    font-size:13px;
+    
+}
+.nav-link:hover{
+    color:black;
+    text-decoration: underline;
+}
+#contact{
+    border-bottom:1px solid black;
+}
+#contact:hover{
+    text-decoration: none;
+}
+#contacth1{
+    position: absolute;
+    left:20px;
+    top:110px;
+    font-size:30px;
+    font-weight:normal;
+}
+.form-group{
+    position: relative;
+    top:350px;
+    left:-394px;
+}
+.form-control{
+    width:350px;
+    height:55px;
+    border-radius: 0;
+    margin-left:15px;
+    margin-bottom:20px;
+}
+.form-control1{
+    width:350px;
+    height:55px;
+    border-radius: 0;
+    margin-left:15px;
+    border:none;
+}
+.baslik{
+    position: absolute;
+    top: 70px;
+    left:25px;
+    font-size: 13px;
+}
+#message{
+    margin-left:15px;
+    border:1px solid white;
+}
+#messageBaslik{
+    position: absolute;
+    top:145px;
+}
+
+ 
+#wrapper{
+    position: absolute;
+      top:900px;
+      left:125px;
+      
+  }
+  .btn{
+      position: relative;
+      border: 1px solid white;
+      overflow:hidden;
+      width:290px;
+      height:50px;
+      border-radius: 0px;
+      background-color:white;
+      
+  }
+  #wrapper div > p{
+    position: relative;
+    padding-top:10px;
+    z-index: 1;
+    font-size:12px;
+    font-weight:60px;
+    color: black;
+    padding-right: 122px;
+    transition:all 0.5s ease;
+  }
+  .btn:before{
+  content:"";
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  background-color: black;
+  }
+  .btn:before{
+  left: -300px;
+  }
+  #wrapper div > p:hover{
+    color: white;
+    font-weight:60px;
+    transition:all 0.5s ease;
+  }
+  .btn:hover:before{
+    left: 0px;
+    transition:all 0.5s ease;
+  }
+  #resim{
+    position: absolute;
+    top:-2px;
+    left:220px;
+    z-index: 1;
+    width:60px;
+  }
+
+  #alt1{
+    position: absolute;
+    top:740px;
+    left:20px;
+    color:#909090;
+    font-size:20px;
+    font-weight:lighter;
+  }
+  #alt1:hover{
+    text-decoration: none;
+    color:#909090;
+  }
+  #alt2{
+    position: absolute;
+    top:715px;
+    left:110px;
+    width:200px;
+    color:#909090;
+    font-size:15px;
+    font-weight:lighter;
+  }
+  .alt3{
+    position: relative;
+    top:715px;
+    left:47px;
+    width:200px;
+    color:#909090;
+    font-size:17px;
+    font-weight:lighter;
+  }
+  .alt3:hover{
+    text-decoration:underline;
+    color:#909090;
+  }
+  .alt4{
+    position: relative;
+    top:715px;
+    left:40px;
+    width:200px;
+    color:#909090;
+     font-size:17px;
+    font-weight:lighter;
+  }
+  .alt4:hover{
+    text-decoration:underline;
+    color:#909090;
+  }
+  #sag{
+    position: absolute;
+    top:365px;
+    left:1065px;
+    font-size:15px;
+    font-weight: lighter;
+    line-height: 22px;
+  }
+ .sagTaraf{
+    position: absolute;
+    top:430px;
+    left:1065px;
+    width:116px;
+    height:150px;
+    font-size:15px;
+    line-height: 22px;
+  }
+#sagTaraf1{
+    top:400px;
+
+  }
+#sagTaraf2{
+    height:50px;
+    top:483px;
+    color:black;
+    text-decoration: none;
+  }
+#sagTaraf2:hover{
+    text-decoration:underline;
+  }
+  #sagTaraf3{
+    height:20px;
+    top:508px;
+    color:black;
+    text-decoration: none;
+  }
+ #sagTaraf3:hover{
+    text-decoration:underline;
+  }
+   #sag1{
+    position: absolute;
+    top:610px;
+    left:1065px;
+    font-size:15px;
+    font-weight: lighter;
+    line-height: 22px;
+  }
+ .sagTaraff{
+    position: absolute;
+    top:700px;
+    left:1065px;
+    width:116px;
+    height:150px;
+    font-size:14px;
+    line-height: 22px;
+  }
+#sagTaraf4{
+    top:643px;
+
+  }
+#sagTaraf5{
+    height:50px;
+    top:669px;
+    color:black;
+    text-decoration: none;
+  }
+#sagTaraf5:hover{
+    text-decoration:underline;
+  }
+  #sagTaraf6{
+    height:20px;
+    top:690px;
+    color:black;
+    text-decoration: none;
+  }
+ #sagTaraf6:hover{
+    text-decoration:underline;
+  }
+  
+

@@ -1,0 +1,148 @@
+#ilkBolum{
+    height:3980px;
+    background-color:white;
+}
+.logo{
+    margin-top:35px;
+}
+.nav-link{
+    color:black;
+    font-size:13px;
+    
+}
+.nav-link:hover{
+    color:black;
+    text-decoration: underline;
+}
+#studio{
+    border-bottom:1px solid black;
+}
+#studio:hover{
+    text-decoration: none;
+}
+#principals{
+    position: absolute;
+    left:20px;
+    top:110px;
+    font-size:30px;
+    font-weight:lighter;
+}
+.card{
+    position: relative;
+    left:-190px;
+    top:265px;
+    width:360px;
+    height:495px;
+    border:0px;
+    
+}
+#card2{
+    margin-left:3px;
+}
+.card-body{
+    margin-left:-15px;
+    width:350px;
+}
+#ourTeam{
+    position: absolute;
+    top:790px;
+    left:25px;
+    font-size:27px;
+    font-weight:400;
+}
+.card1{
+    position: relative;
+    top:940px;
+    left:-5px;
+    width:250px;
+    height:380px;
+    margin-left:30px;
+}
+.card-img-top1{
+    width:260px;
+    height:320px;
+}
+.card-text1{
+    color:black;
+    text-decoration: none;
+}
+.card-text1:hover{
+    color:black;
+    text-decoration: none;
+}
+.card2{
+    position: relative;
+    top:1075px;
+    left:-5px;
+    width:250px;
+    height:380px;
+    margin-left:30px;
+}
+.card-body1{
+margin-top:37px;
+}
+.card3{
+    position: relative;
+    top:1200px;
+    left:-5px;
+    width:250px;
+    height:380px;
+    margin-left:30px;
+}
+.card4{
+    position: relative;
+    top:1400px;
+    left:-5px;
+    width:250px;
+    height:380px;
+    margin-left:30px;
+}
+#alt1{
+    position: absolute;
+    top:1730px;
+    left:20px;
+    color:#909090;
+    font-size:20px;
+    font-weight:lighter;
+  }
+  #alt1:hover{
+    text-decoration: none;
+    color:#909090;
+  }
+  #alt2{
+    position: absolute;
+    top:1688px;
+    left:110px;
+    width:200px;
+    color:#909090;
+    font-size:15px;
+    font-weight:lighter;
+  }
+  .alt3{
+    position: relative;
+    top:1688px;
+    left:47px;
+    width:200px;
+    color:#909090;
+    font-size:17px;
+    font-weight:lighter;
+  }
+  .alt3:hover{
+    text-decoration:underline;
+    color:#909090;
+  }
+  .alt4{
+    position: relative;
+    top:1688px;
+    left:40px;
+    width:200px;
+    color:#909090;
+     font-size:17px;
+    font-weight:lighter;
+  }
+  .alt4:hover{
+    text-decoration:underline;
+    color:#909090;
+  }
+  
+  

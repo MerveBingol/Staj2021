@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100px;
+}
+
+.menu {
+    background-color: #333;
+    width: 270px;
+    height: 100%;
+    position: fixed;
+    left: 00px;
+    top: 40px;
+    border-radius: 0px;
+
+}
+
+.menu a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 270px;
+    text-align: left;
+}
+
+.menu .menu_duzen {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 91px;
+}
+
+.menu a:hover {
+    background-color: #831111;
+    color: black;
+    border-radius: 0px;
+}   
+.menu .container .row{
+    border-bottom:1px solid #585858;
+}
+.menu .container .row i{
+    font-size: 17px;
+}
+.isim_baslik{
+    margin-top: 16px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+.isim_online{
+    margin-left: 100px;
+    font-size: 15px;
+    color: greenyellow;
+}
+.sayfa{
+    width: 1079px;
+    min-height: 600px;
+    float: right;
+    margin-top: 40px;
+}
+.sayfa .card{
+    margin-top: 25px;
+    width: 230px;
+    height: 200px;
+    
+}
+.kutu{
+    margin-top: 50px;
+    width: 790px;
+    min-height: 200px;
+
+}
+.itemler a{
+    text-decoration: none;
+    color: black;
+}
+.ust_icon i{
+    font-size: 30px;
+    margin-right: 30px;
+    color: white;
+}

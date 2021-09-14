@@ -1,0 +1,377 @@
+#ilkBolum{
+    height:1000px;
+    
+}
+.logo{
+    margin-top:35px;
+     
+}
+.nav-link{
+    color:white;
+    font-size:13px;
+    
+}
+.nav-link:hover{
+    color:white;
+    text-decoration: underline;
+}
+.slider{
+    position:absolute;
+    width: 100%;
+    top:-10px;
+    z-index:-1; 
+   filter:brightness(70%);
+   position: fixed;
+}
+.carousel-item{
+
+    height: 600px;
+}
+
+@keyframes zoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.5, 1.5);
+    }
+  }
+  .carousel-inner .carousel-item > img {
+    animation: zoom 40s;
+  }
+  .carousel-caption{
+      position: absolute;
+      left:150px;
+      top: 150px;
+      
+     
+  }
+  .carousel-caption #img1{
+    width: 250px;
+    left:150px;
+    font-size: 60px;
+    color:white;
+   
+  }
+  .carousel-caption #img2{
+    width: 350px;
+    left:150px;
+    font-size: 50px;
+    z-index: 2;
+  }
+  .carousel-caption #img3{
+    width: 500px;
+    left:100px;
+    font-size: 50px;
+    z-index: 2;
+  }
+.carousel-caption #p1{
+    width: 250px;
+    position: absolute;
+    left:-70px;
+    top:200px;
+    font-size: 20px;
+   
+   
+  }
+  .carousel-caption #p2{
+    width: 250px;
+    position: absolute;
+    left:-30px;
+    top:250px;
+    font-size: 20px;
+   
+  }
+  .carousel-caption #p3{
+    width: 250px;
+    position: absolute;
+    left:-30px;
+    top:160px;
+    font-size: 20px;
+    
+   
+  }
+  /*------------------------------------İkinci Kısım-------------------------------------------------------*/
+  #ikinciKisim{
+    position: absolute;
+    top:590px;
+    width: 100%;
+    height:1050px;
+    background-color:#565654 ;
+    color:white;
+    z-index: 2;
+  }
+#ikiH1{
+  position: absolute;
+  top:210px;
+  left:25px;
+}
+
+#ikip1{
+    position: absolute;
+    top:480px;
+    width: 420px;
+  }
+  .ikiImg1{
+   position: absolute;
+   top:215px;
+   left:680px;
+   width:350px;
+   height:590px;
+  }
+  #ikinciKisim .sagTaraf{
+    position: absolute;
+    left:955px;
+    width:116px;
+    height:150px;
+    font-size:15px;
+    line-height: 25px;
+  }
+  #ikinciKisim #sagTaraf1{
+    top:470px;
+
+  }
+  #ikinciKisim #sagTaraf2{
+    height:50px;
+    top:560px;
+    color:white;
+    text-decoration: none;
+  }
+  #ikinciKisim #sagTaraf2:hover{
+    text-decoration:underline;
+  }
+  #ikinciKisim #sagTaraf3{
+    height:20px;
+    top:590px;
+    color:white;
+    text-decoration: none;
+  }
+  #ikinciKisim #sagTaraf3:hover{
+    text-decoration:underline;
+  }
+  
+#wrapper{
+  position: absolute;
+    top:785px;
+    left:20px;
+    
+}
+.btn{
+    position: relative;
+    border: 1px solid white;
+    overflow:hidden;
+    width:262px;
+    border-radius: 0px;
+    background-color:#565654 ;
+    
+}
+#wrapper div > p{
+  position: relative;
+  padding-top:12px;
+  z-index: 1;
+  font-size:12px;
+  font-weight:60px;
+  color: white;
+  padding-right: 122px;
+  transition:all 0.5s ease;
+}
+.btn:before{
+content:"";
+position: absolute;
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+background-color: white;
+}
+.btn:before{
+left: -270px;
+}
+#wrapper div > p:hover{
+  color: black;
+  font-weight:60px;
+  transition:all 0.5s ease;
+}
+.btn:hover:before{
+  left: 0px;
+  transition:all 0.5s ease;
+}
+#resim{
+  position: absolute;
+  top:3px;
+  left:170px;
+  z-index: 1;
+  width:60px;
+}
+
+
+/*.material-icons{
+  position: relative;
+  top:-20px;
+  padding-left:122px ;
+  padding-top:12px;
+  overflow:hidden;
+  z-index: 1;
+  font-size:20px;
+  color: white;
+  padding-right: 10px;
+  transition:all 0.5s ease;
+}
+.material-icons:hover{
+  color: black;
+  transition:all 0.5s ease;
+}*/
+
+/*------------------------------UcuncuKisim------------------------------------------------*/
+#ucuncuKisim{
+  position: absolute;
+  top:1640px;
+  width: 100%;
+  height:3385px;
+  background-color:#252625 ;
+  color:white;
+}
+#ucuncuKisim h1{
+  position: absolute;
+  left:20px;
+  top:195px;
+  font-size:35px;
+  font-weight: lighter;
+}
+.grup1{
+  position: relative;
+  top:350px;
+  left:5px;
+  margin-bottom:95px;
+
+}
+.grup1:hover{
+  opacity:0.5;
+}
+.link1{
+  position: relative;
+  top:290px;
+  left:5px;
+  color:white;
+  font-size: 14px;
+  text-decoration:none;
+}
+.link1:hover{
+  text-decoration:none;
+  color:white;
+}
+.grup2{
+  position: relative;
+  top:350px;
+  left:0px;
+  margin-bottom:95px;
+}
+.grup2:hover{
+  opacity:0.5;
+}
+.link2{
+  position: relative;
+  top:290px;
+  left:0px;
+  color:white;
+  font-size: 14px;
+}
+.link2:hover{
+  text-decoration:none;
+  color:white;
+}
+.grup3{
+  position: relative;
+  top:345px;
+  left:-6px;
+  margin-bottom:95px;
+}
+.grup3:hover{
+  opacity:0.5;
+}
+.link3{
+  position: relative;
+  top:290px;
+  left:-6px;
+  color:white;
+  font-size: 14px;
+}
+.link3:hover{
+  text-decoration:none;
+  color:white;
+}
+#yazi14{
+ position:absolute;
+ top:1140px;
+ left:15px;
+}
+.grup4{
+  position: relative;
+  top:348px;
+  left:-10px;
+  margin-bottom:95px;
+}
+.grup4:hover{
+  opacity:0.5;
+}
+.link4{
+  position: relative;
+  top:288px;
+  left:-10px;
+  color:white;
+  font-size: 14px;
+}
+.link4:hover{
+  text-decoration:none;
+  color:white;
+}
+
+#alt1{
+  position: absolute;
+  top:3880px;
+  left:40px;
+  color:#909090;
+  font-size:20px;
+  font-weight:lighter;
+}
+#alt1:hover{
+  text-decoration: none;
+  color:#909090;
+}
+#alt2{
+  position: absolute;
+  top:3838px;
+  left:96px;
+  width:200px;
+  color:#909090;
+  font-size:17px;
+  font-weight:lighter;
+}
+.alt3{
+  position: relative;
+  top:3838px;
+  left:55px;
+  width:200px;
+  color:#909090;
+  font-size:17px;
+  font-weight:lighter;
+}
+.alt3:hover{
+  text-decoration:underline;
+  color:#909090;
+}
+.alt4{
+  position: relative;
+  top:3838px;
+  left:35px;
+  width:200px;
+  color:#909090;
+  font-size:17px;
+  font-weight:lighter;
+}
+.alt4:hover{
+  text-decoration:underline;
+  color:#909090;
+}
+
+

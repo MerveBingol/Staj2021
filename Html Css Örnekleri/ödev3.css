@@ -1,0 +1,93 @@
+
+.disBolge{
+    border:3px solid gray;
+    position:absolute;
+    left:2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    
+}
+.kutular{
+    border:2px solid black;
+    background-color:#008000 ;
+    position: absolute;
+    width:1352px;
+    height:90px;
+}
+.kutular p{
+    line-height:25px;
+    text-align:center;
+
+}
+#kutu1{
+    border:2px solid black;
+   
+    float:left;
+    width:445px;
+    height: 87px;
+}
+
+#kutu2{
+    border:2px solid black;
+   
+    position: absolute;
+    left:452px;
+    width:445px;
+    height: 87px;
+}
+
+#kutu3{
+    border:2px solid black;
+  
+   position: absolute;
+   right: 0px;
+    width:445px;
+    height: 87px;
+}
+
+#sol{
+    border:2px solid black;
+    background-color: #ffff00;
+    position: absolute;
+    top:95px;
+    width:400px;
+    height: 450px;
+
+}
+#sol p{
+    font-size:30px;
+    padding-top: 150px;
+    text-align: center;
+}
+#icerik{
+    border:2px solid black;
+    background-color: #0000ff;
+    position: absolute;
+    right: 0px;
+    top:95px;
+    width:946px;
+    height: 450px;;
+
+}
+#icerik p{
+    font-size:30px;
+    padding-top: 150px;
+    text-align: center;
+
+}
+#alt{
+    border:2px solid black;
+    background-color: #ffc0cb;
+    position: absolute;
+    bottom: 0px;
+    width: 1352px;
+    height: 93px;
+}
+#alt p{
+    font-size:30px;
+    padding-top: 5px;
+    text-align: center;
+
+
+}

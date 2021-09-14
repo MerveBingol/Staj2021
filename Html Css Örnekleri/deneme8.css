@@ -1,0 +1,46 @@
+ .üst {
+    border: 3px solid  black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+.üst img{
+    position: absolute;
+    left: 50px;
+    width:200px;
+    height: 200px;
+}
+.üst p{
+    text-align: center;
+}
+.orta{
+    float: left;
+    border:3px solid black;
+    position: absolute;
+    left: 500px;
+    top:15px;
+    width: 200px;
+    height: 200px;
+    padding-left: 100px;
+}
+.ortaAlt{
+    position:absolute;
+    left: 500px;
+    top:250px;
+}
+.ortaAlt img{
+    width:300px;
+    height: 150px;
+}
+.alt{
+    border: 3px solid black;
+    position: absolute;
+    top:450px;
+    left:500px;
+}
+.alt p{
+    width:300px;
+    height:150px;
+}

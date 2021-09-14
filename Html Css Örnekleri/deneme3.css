@@ -1,0 +1,24 @@
+.sol{
+    float:left;
+    border:3px solid black;
+    height: 100%;
+    width: 30%;
+    background-color: darkcyan;
+}
+.orta{
+    float: left;
+    border:3px solid red;
+    height: 100%;
+    width: 30%;
+    background-color:pink;
+}
+.sag{
+    float:left;
+    border:3px solid blueviolet;
+    height: 100%;
+    width: 30%;
+    background-color:burlywood;
+}
+p{
+    text-align: center;
+}

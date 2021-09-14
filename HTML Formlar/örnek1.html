@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>örnek1</title>
+        <style>
+            form{
+                border:2px solid blue;
+                position: absolute;
+                left:25px;
+                top: 25px;
+               padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="ad">Adınız: </label><br>
+            <input type="text" id="ad" name="ad"
+             placeholder="Adınızı giriniz." pattern="[A-z]*" required>
+             <br>
+            <label for="soyad">Soyadınız: </label><br>
+            <input type="text" id="soyad" name="soyad"
+             placeholder="Soyadınızı giriniz." pattern="[a-Z]*" required>
+             <br><br>
+            <input type="submit" value="Gönder">
+        </form>
+    </body>
+</html>

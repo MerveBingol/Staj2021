@@ -1,0 +1,83 @@
+.tumu{
+    position: absolute;
+    top:20px;
+    bottom: 5px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top:60px;
+    left:80px;
+}
+.kutu1{
+    border:2px solid #009b01;
+    background-color: #009b01;
+    position: absolute;
+    left:198px;
+    right: 200px;
+    top:5px;
+    bottom: 5px;
+    width:250px;
+    height: 200px;
+}
+#kutu2{
+    border:2px solid #020167;
+    background-color: #020167;
+    position: absolute;
+    left:452px;
+    right: 500px;
+    top:5px;
+    bottom: 5px;
+    width:728px;
+    height: 404px;
+}
+#kutu2 p{
+    
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top:140px;
+    left:330px;
+
+}
+
+#kutu3{
+    border:2px solid #330100;
+    background-color: #330100;
+    left:-2px;
+    top:202px;
+   
+}
+#kutu4{
+    border:2px solid #ff6634;
+    background-color:#ff6634;
+    left:-2px;
+    top:406px;
+
+}
+#kutu5{
+    border:2px solid #ff0066;
+    background-color: #ff0066;
+    left:252px;
+    top:406px;
+    width:240px;
+    height: 200px;
+}
+#kutu6{
+    border:2px solid #cd01ff;
+    background-color: #cd01ff;
+    left:496px;
+    top:406px;
+    width:240px;
+    height: 200px;
+}
+#kutu7{
+    border:2px solid #3200ff ;
+    background-color: #3200ff;
+    left:740px;
+    top:406px;
+    width:240px;
+    height: 200px;
+}

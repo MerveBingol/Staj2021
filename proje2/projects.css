@@ -1,0 +1,181 @@
+
+#ilkBolum{
+    height:1000px;
+    background-color:#252625 ;
+}
+.logo{
+    margin-top:35px;
+     
+}
+.nav-link{
+    color:white;
+    font-size:13px;
+    
+}
+.nav-link:hover{
+    color:white;
+    text-decoration: underline;
+}
+#projects{
+    border-bottom:2px solid white;
+}
+#projects:hover{
+    text-decoration: none;
+}
+
+#ucuncuKisim{
+    position: absolute;
+    top:100px;
+    width: 100%;
+    height:3300px;
+    background-color:#252625;
+    color:white;
+  }
+  #ucuncuKisim h1{
+    position: absolute;
+    left:20px;
+    top:110px;
+    font-size:35px;
+    font-weight: lighter;
+  }
+  .grup1{
+    position: relative;
+    top:263px;
+    left:5px;
+    margin-bottom:95px;
+  
+  }
+  .grup1:hover{
+    opacity:0.5;
+  }
+  .link1{
+    position: relative;
+    top:200px;
+    left:5px;
+    color:white;
+    font-size: 14px;
+    text-decoration:none;
+  }
+  .link1:hover{
+    text-decoration:none;
+    color:white;
+  }
+  .grup2{
+    position: relative;
+    top:263px;
+    left:0px;
+    margin-bottom:95px;
+  }
+  .grup2:hover{
+    opacity:0.5;
+  }
+  .link2{
+    position: relative;
+    top:200px;
+    left:0px;
+    color:white;
+    font-size: 14px;
+  }
+  .link2:hover{
+    text-decoration:none;
+    color:white;
+  }
+  .grup3{
+    position: relative;
+    top:263px;
+    left:-6px;
+    margin-bottom:95px;
+  }
+  .grup3:hover{
+    opacity:0.5;
+  }
+  .link3{
+    position: relative;
+    top:200px;
+    left:-6px;
+    color:white;
+    font-size: 14px;
+  }
+  .link3:hover{
+    text-decoration:none;
+    color:white;
+  }
+  #yazi14{
+   position:absolute;
+   top:1055px;
+   left:15px;
+  }
+  .grup4{
+    position: relative;
+    top:263px;
+    left:-10px;
+    margin-bottom:95px;
+  }
+  .grup4:hover{
+    opacity:0.5;
+  }
+  .link4{
+    position: relative;
+    top:200px;
+    left:-10px;
+    color:white;
+    font-size: 14px;
+  }
+  .link4:hover{
+    text-decoration:none;
+    color:white;
+  }
+
+  #alt1{
+    position: absolute;
+    top:3155px;
+    left:20px;
+    color:#909090;
+    font-size:20px;
+    font-weight:lighter;
+  }
+  #alt1:hover{
+    text-decoration: none;
+    color:#909090;
+  }
+  #alt2{
+    position: absolute;
+    top:3118px;
+    left:110px;
+    width:200px;
+    color:#909090;
+    font-size:15px;
+    font-weight:lighter;
+  }
+  .alt3{
+    position: relative;
+    top:3118px;
+    left:47px;
+    width:200px;
+    color:#909090;
+    font-size:17px;
+    font-weight:lighter;
+  }
+  .alt3:hover{
+    text-decoration:underline;
+    color:#909090;
+  }
+  .alt4{
+    position: relative;
+    top:3118px;
+    left:40px;
+    width:200px;
+    color:#909090;
+     font-size:17px;
+    font-weight:lighter;
+  }
+  .alt4:hover{
+    text-decoration:underline;
+    color:#909090;
+  }
+  
+  
+  
+  
+  
+  

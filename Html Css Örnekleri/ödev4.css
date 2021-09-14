@@ -1,0 +1,73 @@
+#banner{
+    border:1px solid #9bffcd;
+    background-color: #9bffcd;
+    position: absolute;
+    top:0px;
+    left: 200px;
+    width:980px;
+    height:100px;
+}
+#banner p{
+    position: absolute;
+    bottom: 65px;
+}
+p{
+    position: absolute;
+    top:-15px;
+
+}
+#menü{
+    border: 1px solid b#63fe64;
+    background-color: #63fe64;
+    position: absolute;
+    left: 200px;
+    top:101px;
+    width:980px;
+    height:30px;
+}
+#menü p{
+    position: absolute;
+    top:-15px;
+    left:400px;
+}
+#sol{
+    border: 1px solid #ffcb99;
+    background-color: #ffcb99;
+    position: absolute;
+    left: 200px;
+    top:132px;
+    width:200px;
+    height:500px;
+}
+
+#icerik{
+    border: 1px solid #abccff;
+    background-color: #abccff;
+    position: absolute;
+    left: 402px;
+    top:132px;
+    width:580px;
+    height:500px;
+
+}
+
+#sag{
+    border: 1px solid #00cc99;
+    background-color: #00cc99;
+    position: absolute;
+    right: 167px;
+    top:132px;
+    width:200px;
+    height:500px;
+
+}
+
+#alt{
+    border: 1px solid #999967;
+    background-color: #999967;
+    position: absolute;
+    left: 200px;
+    top:634px;
+    width:980px;
+    height:70px;
+}

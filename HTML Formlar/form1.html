@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <style>
+        form{
+            border:2px solid blue;
+            width:200px;
+            padding-left:15px;
+            padding-top: 15px;
+            height: 250px;
+            position: absolute;
+            left:50px;
+        }
+    
+    </style>
+
+<form >
+   <label>Ad:</label><br>
+     <input type="text" name="ad" placeholder="Adınız" pattern="[A-z]*"><br>
+
+     <label for="soyad"> Soyad:</label><br>
+     <input type="text" name="soyad" value="Soyadınız"><br><br>
+
+     <label for="cinsiyet"> Cinsiyet:</label><br>
+     <input type="radio" name="cinsiyet" 
+       value="male" checked> Erkek<br>
+     <input type="radio" name="cinsiyet"
+      value="female"> Kadın<br>
+
+     <label for="sehir"> Şehir:</label><br>
+     <select name="city">
+         <option value="Erzurum">Erzurum</option>
+         <option value="Tokat">Tokat</option>
+         <option value="Ankara">Ankara</option>
+         <option value="İstanbul">İstanbul</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Gönder"><br>
+    <button type="button" onclick="alert('Esenlikler') ">Bana tıkla </button>
+    <br>
+    <br>
+    <form >
+        <fieldset>
+          <legend>Personel:</legend>
+          <label for="ad">AD:</label><br>
+          <input type="text" id="ad" name="ad"><br>
+          <label for="soyad">SOYAD:</label><br>
+          <input type="text" id="soyad" name="soyad">
+          <br><br>
+          <input type="submit" value="Gönder">
+        </fieldset>
+      </form>
+<br>
+</form>
+</body>
+</html>

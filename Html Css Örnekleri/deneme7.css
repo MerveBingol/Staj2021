@@ -1,0 +1,58 @@
+body{
+    background-image:url("images/renk.jpg");
+   background-size: cover;
+}
+.liste{
+    float:left;
+    border:2px solid black;
+    margin-left:25px;
+    margin-top: 15px;
+    width: 300px;
+    height:250px;
+}
+.resim img{
+    float:left;
+    margin-left:25px;
+    margin-top: 15px;
+    width: 600px;
+    height:250px;
+}
+ table{
+    float: left;
+    border:2px solid black;
+    margin-left:50px;
+    margin-top: 15px;
+    width: 300px;
+    height:250px;
+}
+.altSol img{
+    float: left;
+    position: absolute;
+    left: 30px;
+    top: 285px;
+    width: 300px;
+    height:150px;
+}
+#solAlt{
+    position: absolute;
+    top: 160px;
+    left:0px; 
+}
+.altOrta{
+    float:left;
+    border: 2px solid black;
+    margin-left:25px;
+    margin-top: 15px;
+    width: 600px;
+    height:300px;
+
+}
+.sonFoto img{
+    float:left;
+    border: 2px solid black;
+    margin-left:50px;
+    margin-top: 15px;
+    width: 300px;
+    height:300px;
+
+}

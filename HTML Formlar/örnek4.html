@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Örnek4</title>
+        <style>
+            form{
+                border: 2px solid black;
+                width: 200px;
+                height: 200px;
+                padding:10px;
+                box-shadow: 0px 0px 9px yellow;}
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="ad">Adınız:</label><br>
+            <input type="text" id="ad" name="ad"
+             placeholder="Adınınızı giriniz" pattern="[A-z]*">
+            <Label for="soyad">Soyadınız:</Label>
+            <input type="text" id="soyad" name="soyad"
+             placeholder="Soyadınızı giriniz." pattern="[a-Z]*">
+            <label for="hobiler">Hobileriniz nelerdir?</label><br>
+            <input type="checkbox" id="hobi" name="hobi" value="kod yazmak">
+            <label for="hobi">Kod yazmak</label><br>
+            <input type="checkbox" id="hobi1" name="hobi1"value="Uyumak">
+            <label for="hobi">Uyumak</label><br>
+            <input type="checkbox" id="hobi2" name="hobi2" value="yemek yemek">
+            <label for="hobi2">Yemek yemek</label><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

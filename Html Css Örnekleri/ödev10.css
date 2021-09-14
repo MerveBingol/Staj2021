@@ -1,0 +1,174 @@
+body{
+    background-color:#131313;
+    margin-bottom: 200px;}
+.üst{
+    background-color: #232323;
+    border:2px solid  #232323;
+    position: absolute;
+    left:250px;
+    top:0px;
+    width:920px;
+    height:60px;
+    color:white;}
+ .üst h1{
+    position: relative;
+    left:10px;
+    top:-15px;}
+.üst h6{
+    position: relative;
+    left:10px;
+    top:-40px;}
+#menü a{
+    position: relative;
+    top:-100px;
+    left:440px;
+    font-size:13px;
+    padding-left:40px;
+    color:white;
+    text-decoration: none;}
+#solIcerik {
+    background-color: #232323;
+    position: absolute;
+    left:250px;
+    top:80px;
+    width:575px;
+    height: 300px;
+    text-align: center;
+    color:white;
+    line-height:250px;
+    font-size: 30px;}
+#sagIcerik{
+    background-color: #fdc609;
+    position: absolute;
+    left:830px;
+    top:80px;
+    width: 340px;
+    height: 300px;}
+#sagIcerik h2{
+    color:#5b5143;
+    position: relative;
+    left:15px;
+
+}
+#sagIcerik p{
+    position: relative;
+    left:10px;
+    top:-10px;
+    width:310px;
+    height: 90px;
+}
+.kutu1{
+    background-color: #232323;
+    position: relative;
+    left:829px;
+    top:250px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    color:white;
+    font-size:20px;
+    line-height:100px;
+    box-shadow: 5px 5px 9px 2px #666
+}
+#kutu2{
+    
+    left:109px;
+    top:-100px;
+
+}
+#kutu3{
+    left:218px;
+    top:-200px;
+
+}
+
+.aciklama{
+    position: absolute;
+    left:250px;
+    color:#56534f;
+    top:365px;
+    bottom:5px;
+    width: 297px;
+    height:30px;
+    font-size: 25px;
+    border-bottom:2px dotted white;
+    text-align: center;
+    
+}
+#orta{
+    left:565px;
+    top:365px;
+    
+}
+#sag{
+    left:885px;
+    top:365px;
+   
+}
+.altKutu1{
+    background-color: #232323;
+    position: absolute;
+    left:245px;
+    top:430px;
+    width:300px;
+    height:150px;
+    text-align: center;
+    color:white;
+    line-height:130px;
+    font-size: 20px;
+}
+#altKutu2{
+    left:320px;
+    top:0px;
+}
+#altKutu3{
+    left:640px;
+    top:0px;
+}
+.altYazi1 p{
+    
+    position: absolute;
+    left:247px;
+    top:575px;
+    width:310px;
+    height:90px;
+    color:#56534f;
+    font-size: 12px;
+   
+}
+#altYazi2 p {
+    left:570px;
+   
+
+}
+#altYazi3 p {
+    left:890px;
+    
+
+}
+.altBaglanti{
+    background-color: #232323;
+    border:2px solid #232323;
+    position: absolute;
+    left:250px;
+    top:720px;
+    width: 200px;
+    height:30px;   
+}
+.altBaglanti a{
+   margin:50px;
+   line-height:40px;
+    color:#fdc609;
+    text-decoration: none;
+}
+#altBaglanti1{
+    border:2px solid #232323;
+    left:320px;
+    top:0px;
+}
+#altBaglanti2{
+    border:2px solid #232323;
+    left:660px;
+    top:0px;
+}
+

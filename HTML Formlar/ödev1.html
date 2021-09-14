@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ödev1</title>
+        <style>
+            form{
+                border: 2px solid black;
+                position: absolute;
+                left: 300px;
+                top:10px;
+                width: 800px;
+                height: 920px;
+                padding: 10px;
+            }
+            #üst{
+                position: relative;
+                left: 170px;
+                top:-92px;
+            }
+            #kisiselBilgiler{
+                height:120px;
+            }
+            #sektör{
+                position:relative;
+                left: 115px;
+                top:-15px;
+               
+            }
+          
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>KURULUM VE SATIŞ SÖZLEŞMESİ</h1>
+            <fieldset>
+                <legend>Sözleşme onayı</legend>
+                <input type="checkbox" id="sec" name="sec">
+                <label for="sec">Aşağıdaki sözleşmeyi okudum ve onaylıyorum</label><br>
+                <input type="submit" value="Formu gönder">
+                <input type="reset" value="Formu Temizle">
+            </fieldset>
+            <fieldset id="kisiselBilgiler">
+                <legend>Kişisel Bilgiler</legend>
+                <label for="formGüvenlikId">Form Güvenlik İD </label><br>
+                <label for="ad">AD: </label><br>
+                <label for="soyad">SOYİSİM :</label><br>
+                <label for="yas">Yaş:</label><br>
+                <label for="eMail">E Mail :</label>
+                <div id="üst">
+                <input type="text" id="formGüvenlikId" name="formGüvenlikId"placeholder="xtre857"><br>
+                <input type="text" id="ad" name="ad" placeholder="Adınızı giriniz"  pattern="[A-z]*"><br>
+               <input type="text" id="soyad" name="soyad" placeholder="Soyadınızı giriniz"><br>
+               <input type="text" id="yas" name="yas" pattern="\d*"  size="3"><br>
+               <input  type="email" id="eMail" name="eMail" ><br>
+            </div>    
+            </fieldset>
+            <fieldset>
+                <legend>Diğer Bilgiler</legend>
+                <p>Buradaki alanlar mesleki deneyimi kapsar</p>
+                <label for="tarih">Setöre Giriş Tarihi:</label>
+                <input type="date" id="tarih" name="tarih"><br><br>
+                <label >Sektör Deneyimi:</label>
+                <div id="sektör">
+                <input type="radio" id="deneyim" name="deneyim" value="1-5 yıl">
+                <label for="deneyim">1-5 yıl</label><br>
+                <input type="radio" id="deneyim1" name="deneyim" value="6-10 yıl">
+                <label for="deneyim1">6-10 yıl</label><br>
+                <input type="radio" id="deneyim2" name="deneyim" value="11-15 yıl">
+                <label for="deneyim2">11-15 yıl</label><br>
+                <input type="radio" id="deneyim3" name="deneyim" value="15 yıl ve üzeri">
+                <label for="deneyim3">15 yıl ve üzeri</label><br>
+            </div>
+                <label>Programlama Diller:</label>
+                <select id="sec1" name="sec1" size="3">
+                    <option value="c++">C++</option>
+                    <option value="Python">Python</option>
+                    <option value="java">java</option>
+                    <option value="c#">C#</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sözleşme Kopyası</legend>
+                <textarea id="metin" name="metin" rows="15" cols="50">
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır. Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.Bu sözleşmenin kopyasıdır.
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Meil Listesi</legend>
+                <input type="radio" id="sec2" name="sec2" value="Meil listesine katılmak istiyorum">
+                <label for="sec2">Meil Listesine katılmak istiyorum</label><br>
+                <input type="radio" id="sec3" name="sec2" value="Meil Listesine katılmak istemiyorum">
+                <label for="sec2">Meil Listesine katılmak <u>istemiyorum</u></label>
+               
+            </fieldset>
+        </form>
+    </body>
+</html>

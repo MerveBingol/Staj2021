@@ -1,0 +1,131 @@
+.tumu{
+    border:2px solid #beaed0;
+    position: absolute;
+    left: 300px;
+    right: 200px;
+    top:5px;
+    bottom: 5px;
+    width:700px;
+    height: 600px;
+}
+#header{
+    border:2px solid #84e7fc;
+    background-color:#84e7fc ;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    top:15px;
+    width:650px;
+    height: 100px;
+}
+#header p{
+    font-size: 25px;
+    font-weight: bold;
+   position: absolute;
+   left:15px;
+   top:-20px;
+}
+#nav{
+    border:2px solid #ebfbd3;
+    background-color: #ebfbd3 ;
+    position: absolute;
+    left: 35px;
+    right: 10px;
+    top:76px;
+    width:620px;
+    height: 30px;
+   
+
+}
+#nav p{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:-25px;
+    left:3px;
+    bottom: 20px;
+}
+#article{
+    border:2px solid #b1d4ff    ;
+    background-color:#b1d4ff
+    ;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    top:135px;
+    width:420px;
+    height: 400px;
+
+}
+#article p{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:-26px;
+    left:18px;
+    bottom: 20px;
+}
+.section{
+    border:2px solid #ffaa45;
+    background-color:#ffaa45;
+    position: absolute;
+    left: 30px;
+    right: 10px;
+    top:165px;
+    width:400px;
+    height: 110px;
+}
+.section p{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:-25px;
+    left:100px;
+}
+#section1{
+    left:0px;
+    top:125px;
+}
+#section1 p{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:-25px;
+    left:100px;
+}
+#section2{
+    left: 0px;
+    top:250px;
+}
+#section2 p{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:-25px;
+    left:100px;
+    
+
+
+}
+#aside{
+    border:2px solid #bea4e2;
+    background-color:#bea4e2;
+    position: absolute;
+    right: 25px;
+    
+    top:135px;
+    width:220px;
+    height: 400px;
+
+}
+#footer{
+    border:2px solid #84e8fc    ;
+    background-color: #84e8fc    ;
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    top:545px;
+    width:650px;
+    height: 30px;
+
+}

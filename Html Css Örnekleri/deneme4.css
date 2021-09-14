@@ -1,0 +1,35 @@
+p{
+    float:left;
+    border: 3px solid black;
+    font-size: 50px;
+    margin-left: 200px;
+}
+.resim{
+    float:right;
+    margin-right: 50px;
+    width:50%;
+    height:50%;
+    
+    
+}
+.menü{
+    float:left;
+    border:5px solid blue;
+    height: 50px;
+    width:40%;
+}
+a{
+    margin-left: 30px;
+    color: mediumturquoise;
+    font-size:30px;
+}
+.solResim{
+    float:left;
+    width: 50%;
+    height:50%;
+}
+.sagResim{
+    float:right;
+    width:50%;
+    height:50%;
+}

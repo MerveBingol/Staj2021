@@ -1,0 +1,22 @@
+.kutu{
+    border:2px solid black;
+    background-color: blue;
+    position: absolute;
+    left:50px;
+    top:50px;
+    width:400px;
+    height:90px;}
+#kutu1{
+    border:2px solid black;
+    background-color:red;
+    left:470px;
+    top:200px;}
+#kutu2{
+    left:900px;
+    top:50px;}
+#kutu3{
+    left:900px;
+    top:400px;}
+#kutu4{
+    left:50px;
+    top:400px;}

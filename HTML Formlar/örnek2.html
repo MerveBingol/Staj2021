@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Örnek2</title>
+        <style>
+            form{
+                border: 2px solid black;
+                position:absolute;
+                left:25px;
+                top: 25px;
+                padding:10px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" 
+            placeholder="Adınızı giriniz: "  required>
+            <br><br>
+            <label for="soyad">Soyadınız:</label>
+            <input type="text" id="soyad" name="soyad"
+             placeholder="Soyadınızı girniz:"required>
+            <br><br>
+            <Label for="tcNo">TC kimlik No giriniz:</Label>
+            <input type="text"  id="tcNo" name="tcNo"
+             placeholder="TC no giriniz:"pattern="[0-9]{11}" 
+              title="Tc Kimlik no 11 hanelidir.Lütfen tekrar kontrol ediniz!"required>
+            <br><br>
+            <label for="telNo">Telefon Numarası giriniz:</label>
+            <input type="tel" id="telNo" name="telNo" 
+            placeholder="Telefon No giriniz:"pattern="\d{11}"
+             title="eksik ya da fazla rakam girdiniz" required>
+            <br><br>
+            <input type="submit" value="Gönder">
+        </form>
+    </body>
+</html>

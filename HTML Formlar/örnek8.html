@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>örnek8</title>
+        <style>
+            form{
+                border: 2px solid black;
+                background-color: burlywood;
+                padding: 10px;
+                line-height: 20px;
+                width: 250px;
+                height: 250px;
+            }
+            #gönder{
+                position: absolute;
+                left:100px;
+                top:150px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" placeholder="Adınızı giriniz:"pattern="[A-z]*">
+            <br>
+            <br>
+            <label for="dosya">Gerekli dosyayı yükleyiniz : </label><br>
+            <input type="file" id="dosya" name="dosya">
+            <br>
+            <br>
+            <input type="submit" id="gönder" value="Gönder">
+        </form>
+    </body>
+</html>
