@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <style>
+        .kutucuk {
+            height: 50px;
+            width: 50px;
+            background-color: black;
+        }.kutucuk2 {
+            height: 50px;
+            width: 50px;
+            background-color: gray;
+        }
+        .mavi {
+            background-color: blue;
+        }
+        .sarı{
+            color: yellow;
+        }
+        .sari{
+            background-color: yellow;
+        }
+        .gray{
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <p :class="{sarı : maviMi }" >Bu bir başlık tıklama sonucu renk değiştirir.</p>   <!--her tıklamada renk değiştirmesi için v-bind:class kullanıldı.Sari isimli değer neyin çalışacağını ifade ederken maviMi değeri ne zaman çalışacağını ifade eder. -->
+        <button v-on:click="maviMi = !maviMi">Tıkla</button>              <!--butona tıkladıkça değerin doğruluk değerini değiştirerek renk değiştirmesini sağlar.-->
+        <div @click=" maviMi = !maviMi" :class="{mavi : maviMi}" class="kutucuk"></div> <br><br>
+        <div class="kutucuk2" :class="color"></div>
+        <input type="text" v-model="color">     <!--yazılan yazıya göre renk değiştiren kutucuk.-->
+        <p v-bind:style="{color:renk , fontSize:boyut + 'px'}">Vue.js ile stil verilmiş metin</p>     <!--Vue.js ile stil verilmiş metin-->   
+
+    </div>
+
+
+    <script>
+        var nv = new Vue({
+            el: "#app",
+            data: {                               //kullanacağımız değişkenler.
+                maviMi: false,
+                color:"gray",
+                renk:"red",
+                boyut:100
+            },
+        });
+    </script>
+</body>
+
+</html>

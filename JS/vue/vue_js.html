@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style>
+        #app2{
+            border: 2px solid red;
+            width: 150px;
+            float: left;
+            margin-left: 150px;
+            padding: 25px;
+           
+        }
+        #app{
+           float: left;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="app"> 
+        <label> Bu tıklama satırı tamamiyle vue.js de yazılmıştır.</label>  
+        <p v-html='extra_link'></p><!--v-html sayesinde data olarak yazılan html satırını kullanabiliyoruz.-->
+        <button v-on:click="uyari">Butona Tıkla</button>
+        <!--butona tıklama özelliği katıp her tıklandıkça sayaçı artırıp ekrana uyarı verir.-->
+        <p>{{sayaç}}</p>   
+         <!--parametreli methodu çağırdığımız kısım-->                
+        <button v-on:click='uyari_göster("admin")'>Uyarı İçin Tıkla</button> 
+        <!--inputa verii girilip enter ruşuna basıldığında uyari_input methodunu çalıştırır.
+         Bu method ekrana uyarı verir ve girilen değeri içerisinde barındırır.-->
+        <input type="text" v-on:keyup.enter="uyari_input">
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{              
+                extra_link:"<a href='https://www.google.com/'>Tıkla</a>",
+                sayaç:0,            
+            },
+            methods:{               
+                uyari:function(){ //uyarı oluşturan method
+                    alert();
+                    this.sayaç++
+                },
+                uyari_göster:function(göster){ //parametreli methods kullanımına örnek.
+                    alert(göster)
+                },
+                uyari_input:function(event){//bir olayı parametre olarak alan methoda örnek.
+                    alert(event.target.value)
+                }
+            }
+        });
+    </script>
+<!--iki ayrı div iki ayrı vue.js. her vue.js tanımlaması için new kullanılır.-->
+    <div id="app2"> 
+        <button v-on:click="sayi++">Tıklayınız </button>       
+        <p>{{sayi}}</p>
+        <p>{{artis()}}</p>
+    </div>
+    <script>
+        new Vue({
+            el:"#app2",
+            data:{
+                sayi:0,                
+            },
+            methods:{
+                artis:function(){    
+                    return this.sayi >10 ? "sayı 10'dan büyük" : "sayı 10 dan küçük"
+                }
+            }
+        })
+    </script>
+</body>
+</html>

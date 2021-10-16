@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>Sayının 33 den küçük olup olmadığını kontrol ettik</p>
+        <p>Şu Anki Değer: {{value}} </p>
+        <button @click="value+=1">1 artır</button>
+        <button @click="value+=5">5 artır</button>      
+        
+        <p>{{result}}</p>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",     
+            data:{ 
+                value:0,
+                esit:" ",
+            },
+            computed:{
+                result:function(){
+                    if (this.value == 33) {
+                        return "33'e eşit"
+                    }
+                    return this.value > 33 ? "33'ten büyük" : "33'ten küçük"
+                }  
+            },
+            watch:{  
+                result:function(){
+                    vm=this,
+                    setTimeout(function(){ 
+                        vm.value=0 
+                    },5000)
+                }
+            }
+        })
+    </script>
+</body>
+</html>

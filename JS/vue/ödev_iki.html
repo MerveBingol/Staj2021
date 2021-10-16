@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev2</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <button v-on:click="uyari()">Tıklayınız </button>
+        <input type="text" v-model="value"> 
+        <p> {{value}}</p>
+        <input type="text" v-on:keyup.enter="der">
+        <p>{{dee
+            r}}</p>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                value:"",
+                deer:" "
+            },
+            methods:{
+                uyari:function(){
+                    alert()
+                },
+                der:function(event){                               
+                    this.deer = event.target.value//olayın hedefinin değerini aldık 
+                },
+            }
+        })
+    </script>
+    
+</body>
+</html>

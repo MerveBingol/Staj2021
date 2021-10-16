@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="gösterprg=!gösterprg">GÖSTER</button>
+        <p v-if="gösterprg">beni görebiliyor musun?</p>
+        <p v-else-if="!gösterprg">Ya da beni görebiliyor musun?</p>
+
+        <button @click="gösterprgg=!gösterprgg">GÖSTER_SHOW</button>
+        <p v-show="gösterprgg">beni görebiliyor musun?</p>
+        <p v-show="!gösterprgg">Ya da beni görebiliyor musun?</p>
+        <ul>
+            <li v-for="(i,index) in isimler"> {{index}} {{i}} </li>
+        </ul>
+        <ul>
+            <li v-for="(value,keyName,index) in filmler"> {{keyName}} : {{value}} : {{index}}  </li>
+        </ul>
+        <ul>
+            <li v-for="k in kelime"> {{k}} </li>
+        </ul>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                gösterprg:true,
+                gösterprgg:false,
+                isimler:["Merve","Ece","Nuri"],
+                filmler:{
+                    name:"game of trons",
+                    yönetmen:"y kişisii",
+                    imbd:"7.1" 
+                },
+                kelime:{
+                    name:"nesneloop",
+                    id:10,
+                    data:[3,45,19,14,50,60,40]
+                }
+            }
+        })
+    </script>
+</body>
+</html>
